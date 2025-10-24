@@ -12,7 +12,7 @@ services:
     image: tamirvlad/medapifront:latest
     container_name: frontend
     ports:
-      - "5174:5174"
+      - "5174:80"
     restart: unless-stopped
     depends_on:
       - backend
